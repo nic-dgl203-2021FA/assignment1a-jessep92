@@ -87,6 +87,11 @@ header {
 .work-exp {
     background: #a1c6d7;
 }
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
 
 /* Education
 ----------------------------*/
