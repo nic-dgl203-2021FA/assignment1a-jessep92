@@ -29,10 +29,12 @@ img {
     height: 350px;
 }
 a {
-    color: #ffe66d;
+    color: var(--header-color);
+    text-decoration: none;
 }
 a:hover {
     text-decoration: none;
+    color: var(--accent-color);
 }
 h1 {
     font-family: 'Birthstone', cursive;
@@ -154,7 +156,9 @@ header h2 {
 /* Contact Info
 ----------------------------*/
 footer {
-    background: var(--main-bg-color);
+    background-image: url(../assignment1a-jessep92/images/footer-img.png);
+    background-size: cover;
+    background-position: bottom;
     color: var(--font-color);
     text-align: center;
 }
