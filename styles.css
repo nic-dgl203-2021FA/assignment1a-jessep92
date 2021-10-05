@@ -34,7 +34,8 @@ a:hover {
     text-decoration: none;
 }
 h1 {
-    font-size: 75px;
+    font-family: 'Birthstone', cursive;
+    font-size: 150px;
 }
 h2 {
     font-size: 30px;
@@ -82,6 +83,10 @@ header {
 .projects {
     background: #f7fff7;
 }
+.projects h1 {
+    font-family: 'Birthstone', cursive;
+    font-size: 50px;
+}
 .projects a {
     color: #2f3061;
 }
@@ -111,10 +116,17 @@ header {
     background-position: top right;
     padding-bottom: 100px;
 }
+.work-exp h1 {
+    font-family: 'Birthstone', cursive;
+    font-size: 50px;
+}
 
 /* Education
 ----------------------------*/
-
+.education h1 {
+    font-family: 'Birthstone', cursive;
+    font-size: 50px;
+}
 
 /* Contact Info
 ----------------------------*/
@@ -122,6 +134,10 @@ footer {
     background: #343434;
     color: #f7fff7;
     text-align: center;
+}
+.footer-content h1 {
+    font-family: 'Birthstone', cursive;
+    font-size: 50px;
 }
 .contact-list {
     display: flex;
