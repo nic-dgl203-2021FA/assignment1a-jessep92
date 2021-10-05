@@ -39,6 +39,7 @@ h1 {
 }
 h2 {
     font-size: 30px;
+    color: var(--header-color);
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -77,9 +78,17 @@ h3 {
 /* Profile
 ----------------------------*/
 header {
-    background: var(--main-bg-color);
+    background-image: url(../assignment1a-jessep92/images/hero-img.png);
+    background-size: cover;
     color: var(--font-color);
+    text-shadow: 1px 3px 30px var(--main-bg-color);
     text-align: center;
+}
+header h1 {
+    margin-bottom: -50px;
+}
+header h2 {
+    text-shadow: 1px 3px 20px var(--main-bg-color);
 }
 
 /* Projects
