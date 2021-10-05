@@ -103,13 +103,13 @@ header h2 {
 }
 .top-nav a {
     transition: all .5s ease;
-    float: left;
+    float: right;
     display: block;
     color: var(--header-color);
     text-align: center;
     padding: 15px 35px;
     text-decoration: none;
-    border-right: 2px solid;
+    border-left: 2px solid;
     border-image: 
     linear-gradient(
       to bottom, #F9A03F, 
