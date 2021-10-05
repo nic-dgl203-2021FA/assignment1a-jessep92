@@ -86,6 +86,7 @@ header {
     color: var(--font-color);
     text-shadow: 1px 3px 30px var(--main-bg-color);
     text-align: center;
+    height: 450px;
 }
 header h1 {
     margin-bottom: -50px;
