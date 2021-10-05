@@ -100,7 +100,7 @@ header h2 {
 .projects h1 {
     font-family: 'Birthstone', cursive;
     font-size: 50px;
-    color: var(--header-color);
+    color: var(--main-bg-color);
 }
 .projects a {
     color: #2f3061;
@@ -139,6 +139,7 @@ header h2 {
 .work-exp h1 {
     font-family: 'Birthstone', cursive;
     font-size: 50px;
+    color: var(--header-color);
 }
 
 /* Education
