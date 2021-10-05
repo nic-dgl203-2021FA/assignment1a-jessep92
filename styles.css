@@ -1,3 +1,13 @@
+/* Root Variables
+----------------------------*/
+:root {
+    --main-bg-color: #353B3C;
+    --secondary-bg-color: #D2D7DF;
+    --header-color: #F9A03F;
+    --accent-color: #E15554;
+    --font-color: #FFFFFF;
+}
+
 /* Global Styles
 ----------------------------*/
 html {
