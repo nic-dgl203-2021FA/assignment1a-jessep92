@@ -93,6 +93,32 @@ header h1 {
 header h2 {
     text-shadow: 1px 3px 20px var(--main-bg-color);
 }
+.top-nav {
+    overflow: hidden;
+    background-color: var(--main-bg-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.top-nav a {
+    transition: all .5s ease;
+    float: left;
+    display: block;
+    color: var(--header-color);
+    text-align: center;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-right: 2px solid;
+    border-image: 
+    linear-gradient(
+      to bottom, #F9A03F, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+.top-nav a:hover {
+    background: var(--accent-color);
+    color: var(--font-color);
+}
 
 /* Projects
 ----------------------------*/
