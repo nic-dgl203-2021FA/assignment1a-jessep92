@@ -25,7 +25,8 @@ body {
     line-height: 1.5;
 }
 img {
-    width: 300px;
+    width: 450px;
+    height: 350px;
 }
 a {
     color: #ffe66d;
@@ -99,6 +100,7 @@ header h2 {
 .projects h1 {
     font-family: 'Birthstone', cursive;
     font-size: 50px;
+    color: var(--header-color);
 }
 .projects a {
     color: #2f3061;
@@ -119,6 +121,9 @@ header h2 {
 }
 .project-item h3 {
     margin-top: 0;
+}
+.img-1 {
+    object-fit: cover;
 }
 
 /* Work Experience
