@@ -332,3 +332,31 @@ footer {
         column-gap: 20px;
     }
 }
+@media screen and (max-width:750px){
+    h1 {
+        font-family: 'Birthstone', cursive;
+        font-size: 100px;
+        padding-bottom: 15px;
+    }
+    .top-nav a {
+        transition: all .5s ease;
+        float: right;
+        display: block;
+        color: var(--header-color);
+        text-align: center;
+        padding: 8px 15px;
+        text-decoration: none;
+        border-left: 2px solid;
+        border-image: 
+        linear-gradient(
+          to bottom, #F9A03F, 
+          rgba(0, 0, 0, 0)
+        ) 1 100%;
+    }
+    html, body {
+        overflow-x: hidden;
+    }
+    header h1 {
+        font-size: 80px;
+    }
+}
